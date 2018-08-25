@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angell
 x-kinRank: "9"
 x-alexaRank: "2447"
 tags: Accreditation
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/accreditation/master/_listings/angellist/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AngelList
-  x-api-slug: angellist
-  description: the-angellist-api-provides-developers-with-a-restful-interface-to-the-angellist-data-set--for-more-information-read-the-oauth-faq-
+- name: AngelList - Get Accreditation
+  x-api-slug: accreditation-get
+  description: Pulls the accreditation for a startup and users.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1/
@@ -26,17 +26,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accreditation/master/_listings/angellist/accreditation-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/accreditation/master/_listings/angellist/accreditation-get-openapi.md
-- name: AngelList
-  x-api-slug: angellist
-  description: AngelList is where the world meets startups. Find a great startup job,
-    invest in a startup, or raise money
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
-  humanURL: http://angel.co
-  baseURL: https://api.angel.co//1/
-  tags: Accreditation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/accreditation/master/_listings/angellist/openapi.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
